@@ -1,6 +1,6 @@
 import re
-div = open("Arquive.txt", "r")
-Words = re.findall(r'\w+', div)
+read = open("Arquive.txt", "r")
+Words = re.findall(r'\w+', read)
 totalWords = len(set(Words))
 print(totalWords)
 
