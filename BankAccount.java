@@ -1,10 +1,10 @@
-public class Bank{
+public class BankAccount{
   String Nome;
   double Saldo;
   int Idade;
 
   //Constructor
-  public Bank(String Nome, double Saldo, int Idade) {
+  public BankAccount(String Nome, double Saldo, int Idade) {
     this.Nome = Nome;
     this.Saldo = Saldo;
     this.Idade = Idade;
