@@ -3,15 +3,15 @@ from sqlite3 import Cursor
 import MySQLdb
 #MySQLdb Linux installing: sudo apt-get install python-mysqldb
 
-mydb = MySQLdb.coonect(host='localhost', user='exemple', passwd='exemp', db='exemp')
+mydb = MySQLdb.coonect(host='localhost', user='example', passwd='example', db='example')
 cursor = mydb.cursor()
 cont = 1
-csv_data = csv.reader(file('exemple.csv'))
+csv_data = csv.reader(file('example.csv'))
 
 
 for row in csv_data:
   try:
-    cursor.execute('INSERT int TableExemple VALUES(%s, %s, %s, $s)', row)
+    cursor.execute('INSERT int TableExample VALUES(%s, %s, %s, $s)', row)
     print("Cadastro", cont, "realizado com sucesso!")
     cont = cont + 1
   except MySQLdb.Error as e:
@@ -19,4 +19,3 @@ for row in csv_data:
     
 mydb.commit()
 cursor.close()
-    
