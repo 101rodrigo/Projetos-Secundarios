@@ -14,6 +14,23 @@ public class BankAccount{
     return Nome;
   }
 
-  
+  public void setNome(String Nome) {
+    this.Nome = Nome;
+  }
 
+  public double getSaldo() {
+    return Saldo;
+  }
+  
+  public void setSaldo(double Saldo) {
+    this.Saldo = Saldo;
+  }
+
+  public int getIdade() {
+    return Idade;
+  }
+
+  public void setIdade(int Idade) {
+    this.Idade = Idade;
+  }
 }
