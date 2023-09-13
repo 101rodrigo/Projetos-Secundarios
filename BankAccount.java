@@ -37,8 +37,8 @@ public class BankAccount{
   public static void main(String[] args) {
     //Objects
     BankAccount conta1 = new BankAccount("nome1", 101.0, 23);
-    BankAccount conta1 = new BankAccount("nome2", 10.1, 24);
-    BankAccount conta1 = new BankAccount("nome3", 10101.1, 25);
+    BankAccount conta2 = new BankAccount("nome2", 10.1, 24);
+    BankAccount conta3 = new BankAccount("nome3", 10101.1, 25);
     
   }
 }
