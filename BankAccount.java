@@ -33,4 +33,12 @@ public class BankAccount{
   public void setIdade(int Idade) {
     this.Idade = Idade;
   }
+
+  public static void main(String[] args) {
+    //Objects
+    BankAccount conta1 = new BankAccount("nome1", 101.0, 23);
+    BankAccount conta1 = new BankAccount("nome2", 10.1, 24);
+    BankAccount conta1 = new BankAccount("nome3", 10101.1, 25);
+    
+  }
 }
